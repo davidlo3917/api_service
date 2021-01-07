@@ -1,0 +1,5 @@
+.DS_Store
+venv
+uploads
+.idea
+__pychache__
