@@ -1,4 +1,4 @@
-# Question 2 
+# Image API
 Implement simple web server in a Docker container which exposes apis to upload and retrieve image from server
 ## API
 * Upload File

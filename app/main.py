@@ -57,7 +57,6 @@ def save_me(image: UploadFile, target_path: str):
 
     # close file
     buffer.close()
-    return
 
 
 def compress_me(file: str):
@@ -68,5 +67,3 @@ def compress_me(file: str):
     # compress images
     picture = Image.open(file)
     picture.save(f'{COMPRESS_FOLDER}{pathlib.Path(file).stem}{pathlib.Path(file).suffix}', optimize=True, quality=10)
-
-    return
