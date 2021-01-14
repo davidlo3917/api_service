@@ -55,9 +55,6 @@ def save_me(image: UploadFile, target_path: str):
     with open(target_path, 'wb') as buffer:
         shutil.copyfileobj(image.file, buffer)
 
-    # close file
-    buffer.close()
-
 
 def compress_me(file: str):
     # create folder if not exists
